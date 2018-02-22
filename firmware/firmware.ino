@@ -29,6 +29,7 @@ void setup()
 #endif
   radio.encrypt(ENCRYPTKEY);
   flash.initialize();
+  Serial.write("gateway\n");
 }
 
 void loop()
